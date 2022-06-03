@@ -1,0 +1,313 @@
+
+
+
+ body {
+     margin: auto;
+     box-sizing: border-box;
+    
+ }    
+
+.ikona {
+    font-size: 14px;
+    color: rgb(149, 187, 199);
+    padding-right: 10px;
+}
+
+.antrastes-wrapperis {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: rgb(71, 128, 194);
+   
+}
+.anrastes-wrapperis-kaire {
+    width: 30%;
+    display:flex;        
+    justify-content: center;
+   
+}
+.antraste-nuorodos {
+    display: flex;
+    align-items: center; 
+    gap: 20px;      
+}
+.mygtukas {
+    display: block; 
+    padding: 5px;
+    width: 100%;                      
+    text-decoration: none;
+    color: rgb(245, 240, 240);
+    font-size: large; 
+    text-align: center;     
+
+}
+.mygtukas:hover {
+    background-color: rgb(20, 51, 119);
+}
+.krastas {
+    border-right: 1px solid rgb(149, 187, 199);   
+}
+.remas {   
+    border: 1px solid rgb(149, 187, 199);
+    border-radius: 3px;
+     
+}
+.antrastes-wrapperis-centras{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(252, 248, 248);
+
+}
+.pavadinimas {
+    font-size: 55px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    
+}
+.pavadinimas1 {
+    font-size: medium;
+    margin-top: 0px;
+}
+.antrastes-wrapperis-desine {
+    width: 30%;
+    display:flex;     
+    justify-content: center;        
+    
+}
+
+.nuorodu-wrapperis {
+    display: flex;
+    height: 75px;
+    background-color: rgb(50, 68, 109);        
+    justify-content: center; 
+   
+}
+
+.nuorodu-mygtukai {
+    display: flex; 
+    align-items: center;     
+    height: 75px;           
+    width: 96%;
+    justify-content: space-around;   
+    border-left: 1px solid rgb(69, 116, 148);
+    border-right: 1px solid rgb(69, 116, 148);                  
+}
+.nuorodu-mygtukai > p {
+flex-grow: 1;
+}
+.nuorodu-mygtukai a {
+    display: flex;   
+    width: 100%;   
+    line-height:70px ;       
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large; 
+    justify-content: space-around;   
+}
+
+.nuorodu-mygtukai a:hover {
+    background-color: rgb(5, 4, 59);
+}
+
+
+.skirtukai {
+    border-left: 1px solid rgb(69, 116, 148);
+    border-right: 1px solid rgb(69, 116, 148);
+}
+
+.apimantis-visus-su-baltom-parastem {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 30px;
+
+}
+
+.fotografija {
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+    background-image: url(foto.jpg);
+    background-size:100% ;
+    background-position:100% ;
+    height: 300px;
+    width: 100%;
+  
+    margin-top: 80px;
+}
+.uzrasus-gaubiantis {
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; 
+    width: 50%;
+   }
+.uzrasas-ant-foto {  
+    display: block;  
+    color: aliceblue;                
+}
+.bloko-po-foto-wrapperis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width:100% ;
+    background-color: rgb(45, 85, 13);
+    
+    margin-top: 0px;
+    color: aliceblue;
+}
+.kaire-puse {
+    width: 70%;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: Arial;
+}
+.centro-blokai-wrapperis {
+    display: flex;      
+    justify-content: center;
+    width: 100%;         
+    gap: 30px ;        
+}
+.centro-blokai-1 {
+    height: 350px;
+    background-color: rgb(178, 195, 218);
+    color: rgb(32, 95, 167);
+    padding: 30px;     
+    width: 100%; 
+    font-family: Arial;
+    font-size: 45px;    
+}
+.spalva-dydis {
+    color: rgb(68, 67, 67);
+    font-size: large;
+}
+.centro-blokai-2 {
+    height: 350px;    
+    width: 100%;
+    padding: 30px;
+    font-family: Arial;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.treciasis {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 380px;
+    padding: 0px 60px 60px 0px;  
+
+    
+}
+.kalendoriaus-blokelis {
+   display: flex;  
+   align-items: center;   
+   height: 140px;
+   width: 100%;   
+}
+.kalendoriaus-blokelis-uzrasas {
+    margin: 0px;
+    font-size: large;
+    color: black;    
+}
+.kalendoriaus-langelis {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 20%;
+    height: 100px;
+    color: rgb(120, 202, 27);
+    text-align: center;
+    font-size: 45px;
+    min-width: 100px;
+}
+.kalendoriaus-irasas {
+    
+    color:rgb(56, 166, 230);
+    font-size: 20px;
+    padding: 30px;  
+}
+.apatiniu-nuorodu-wrapperis {
+    display: flex;   
+    height: 100px; 
+    width: 100%;         
+}
+.apatiniu-nurodu-mygtukai {
+    display: flex;   
+    align-items: center; 
+    width: 100%;     
+    gap: 40px;   
+} 
+.apatiniu-nurodu-mygtukai > p {
+    flex-grow: 1;
+}
+.apatiniu-nurodu-mygtukai  a {
+    display:flex;
+    border: 1px solid rgb(83, 181, 238);
+    border-radius: 5px;
+    justify-content: space-around;      
+    padding: 1em;    
+    text-decoration: none; 
+    color: rgb(83, 181, 238);  
+    font-weight: bold; 
+} 
+.apatiniu-nurodu-mygtukai  a:hover {
+    color: rgb(16, 72, 117);
+    background-color: rgb(214, 211, 211);
+} 
+.footerio-wrapperis {
+    display: flex;     
+    width: 100%;    
+    background-color: rgb(65, 63, 63);
+}
+.footerio-stulpelis {
+   
+    justify-content: space-between;
+    width: 100%;  
+    color: aliceblue;
+    margin-bottom: 50px;
+    margin-left: 45px;       
+}
+.footerio-stulpelis a {
+    text-decoration: none;
+    color: rgb(163, 161, 161);
+    font-size: large;
+
+}
+.footerio-stulpelis a:hover {
+    color: rgb(202, 208, 214);  
+}
+
+.footerio-stulpelis > h3 a {
+    padding-left:                                                                                                                                      5px;
+    text-decoration: none;
+    color: white;    
+}
+
+.footerio-wrapperis-apacia {  
+    display: flex;     
+    width: 100%; 
+    min-height: 80px;   
+    background-color: rgb(65, 63, 63);
+    align-items: center;  
+    flex-direction: column;   
+}
+.linija {
+    width: 95%;
+    border-top: 1px solid white;
+
+}
+.uzrasas {
+    color: white;
+    padding: 50px;   
+}
+
+
+
+
+
