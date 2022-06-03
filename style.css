@@ -43,14 +43,16 @@
 
 }
 .mygtukas:hover {
-    background-color: rgb(20, 51, 119);
+    background-color: rgb(66, 90, 146);
+    border: 1px  solid rgb(255, 255, 255) ;
+    border-radius: 5px;
 }
 .krastas {
     border-right: 1px solid rgb(149, 187, 199);   
 }
 .remas {   
     border: 1px solid rgb(149, 187, 199);
-    border-radius: 3px;
+    border-radius: 5px;
      
 }
 .antrastes-wrapperis-centras{
